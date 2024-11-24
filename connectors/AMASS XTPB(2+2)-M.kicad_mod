@@ -1,0 +1,197 @@
+(footprint "AMASS XTPB(2+2)-M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "31c3250e-0b75-4b1f-ba48-42ece80bdc21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AMASS XTPB(2+2)-M"
+		(at 4.5 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09a7a5f8-4e68-40e4-adb2-cc36ec2a8933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 4.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f67fc92c-b3a2-4fcf-9019-6c1ebbe751b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 4.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22569b6d-96a6-4406-b82b-e5769a60476a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 4.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "049fcea6-1bc5-466c-90ff-3e50e6b2a932")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.6)
+		(end -3.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12269bde-771d-48d8-ac77-55f9c121874a")
+	)
+	(fp_line
+		(start -3.5 -2.6)
+		(end 12 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "172b1295-7ca0-45d0-be14-c8faddbaafa5")
+	)
+	(fp_line
+		(start -3.5 2.6)
+		(end 12 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f18080a-857d-47b6-b22c-510dc7f97cb2")
+	)
+	(fp_line
+		(start -0.5 -2)
+		(end 0.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2636053d-03f8-4642-b3cf-24c8f3e72657")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a180321-117d-4a39-b167-38c0ff9c0be4")
+	)
+	(fp_line
+		(start 4.5 -2)
+		(end 5.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c4952c9-fa27-44f4-acf9-cc793688d903")
+	)
+	(fp_line
+		(start 12 -2.6)
+		(end 12 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcb8db63-a876-4440-88eb-a856bc147514")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.5 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfa8d2c8-3e61-41c9-86dc-94d10c20d79f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 8.85 -1)
+		(size 1.524 1.524)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f1d20bc-a3c8-4039-bde7-4641927ade54")
+	)
+	(pad "2" thru_hole circle
+		(at 8.85 1)
+		(size 1.524 1.524)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce015d54-f553-4e50-bad3-76da064f1bdf")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 2.70002 2.70002)
+		(drill 1.89992)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33f05ed3-8c37-4003-86ba-355c380a4082")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 2.70002 2.70002)
+		(drill 1.89992)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e558237-eaac-4360-bde8-269ef411dedf")
+	)
+	(model "/home/pc/Desktop/projects/kicad-libraries/connectors/connectors.pretty/3dmodels/XT30PB.STEP"
+		(offset
+			(xyz 4.4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

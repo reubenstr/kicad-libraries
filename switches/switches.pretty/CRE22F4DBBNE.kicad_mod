@@ -1,0 +1,128 @@
+(footprint "CRE22F4DBBNE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 13.5 6.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60827af1-f836-4fd6-bd3f-643b4f0a48da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPST"
+		(at 0.746 11.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f827a178-15a3-4039-86f8-5538649d45af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "switches-and-buttons:CRE22F4DBBNE"
+		(at -9.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60603890-8429-481c-948a-95778761176c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -9.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c440f88c-fb57-4e34-a1ae-8c07263dc030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single Pole Single Throw (SPST) switch"
+		(at -9.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "418103b6-8a14-46dd-a7d5-f69767d826eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -15.9 -8.25)
+		(end 15.9 8.25)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ececf335-a7ef-43c2-90cc-e457353ad8d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 13.208 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc8104dd-5f23-40e5-a699-ff2b4c43afea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -9.5 0 90)
+		(size 11 5)
+		(drill oval 7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb285c5a-ecf2-4930-a5ae-48e581fc5670")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 90)
+		(size 11 5)
+		(drill oval 7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "305ae116-72b5-41cf-af71-0eee53b7948e")
+	)
+	(pad "3" thru_hole oval
+		(at 9.5 0 90)
+		(size 11 5)
+		(drill oval 7 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54a82233-ded1-4072-b7f3-4f0d08012a54")
+	)
+	(model "C:/Users/Zoidburg/Desktop/kicad-libraries/switches-and-buttons/switches-and-buttons.pretty/3dmodels/CRE22F4DBBNE.stp"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
