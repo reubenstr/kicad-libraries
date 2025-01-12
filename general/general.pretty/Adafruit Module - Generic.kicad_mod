@@ -1,10 +1,10 @@
-(footprint "BNO055 Module"
+(footprint "Adafruit Module - Generic"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 6.35 -10.39 0)
+		(at 6.604 -8.89 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a5d9fae7-4ac8-491f-bc1f-d78627984607")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "BNO055 Module"
-		(at 6.35 -8.89 0)
+	(property "Value" "Adafruit Module - Generic"
+		(at 6.604 -7.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5a7ea48c-73a4-447c-a454-fe05b3a17726")
@@ -65,8 +65,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -6.985 -19.05)
-		(end 19.685 1.275)
+		(start -6.985 -15.24)
+		(end 19.685 2.545)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,7 +76,7 @@
 		(uuid "cd8e5299-a812-4353-9812-c14fcddea1fc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 6.35 -7.39 0)
+		(at 6.096 -5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ca06cfcb-c4da-42a1-93d8-63fe5ba9c677")
@@ -136,7 +136,7 @@
 		(uuid "2755ec72-057c-400a-b02a-1a90a52ad79c")
 	)
 	(pad "7" thru_hole circle
-		(at 10.16 -17.78)
+		(at 10.16 -12.7)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -144,7 +144,7 @@
 		(uuid "45cf7f01-3c0a-4d74-82e7-bde13690c288")
 	)
 	(pad "8" thru_hole circle
-		(at 7.62 -17.78)
+		(at 7.62 -12.7)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -152,7 +152,7 @@
 		(uuid "076545e1-8ac0-4642-b489-ff78eb995046")
 	)
 	(pad "9" thru_hole circle
-		(at 5.08 -17.78)
+		(at 5.08 -12.7)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -160,7 +160,7 @@
 		(uuid "20531f7f-56a1-4955-9452-a88acf661438")
 	)
 	(pad "10" thru_hole circle
-		(at 2.54 -17.78)
+		(at 2.54 -12.7)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
