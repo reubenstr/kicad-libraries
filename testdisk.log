@@ -1,0 +1,203 @@
+
+
+Mon Jan 27 22:04:25 2025
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-51-generic (#52~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Dec  9 15:00:52 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Mon Jan 27 22:04:25 2025
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-51-generic (#52~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Dec  9 15:00:52 UTC 2) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop31 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 333 MB / 317 MiB - 650624 sectors (RO), sector size=512
+Disk /dev/loop10 - 124 MB / 118 MiB - 243056 sectors (RO), sector size=512
+Disk /dev/loop11 - 125 MB / 119 MiB - 244616 sectors (RO), sector size=512
+Disk /dev/loop12 - 288 MB / 274 MiB - 562880 sectors (RO), sector size=512
+Disk /dev/loop13 - 287 MB / 274 MiB - 562064 sectors (RO), sector size=512
+Disk /dev/loop14 - 540 MB / 515 MiB - 1056096 sectors (RO), sector size=512
+Disk /dev/loop15 - 540 MB / 515 MiB - 1056088 sectors (RO), sector size=512
+Disk /dev/loop16 - 172 MB / 164 MiB - 337560 sectors (RO), sector size=512
+Disk /dev/loop17 - 366 MB / 349 MiB - 716176 sectors (RO), sector size=512
+Disk /dev/loop18 - 521 MB / 496 MiB - 1017816 sectors (RO), sector size=512
+Disk /dev/loop19 - 529 MB / 505 MiB - 1034424 sectors (RO), sector size=512
+Disk /dev/loop2 - 333 MB / 317 MiB - 650624 sectors (RO), sector size=512
+Disk /dev/loop20 - 143 KB / 140 KiB - 280 sectors (RO), sector size=512
+Disk /dev/loop21 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop22 - 217 MB / 207 MiB - 424400 sectors (RO), sector size=512
+Disk /dev/loop23 - 90 MB / 86 MiB - 177552 sectors (RO), sector size=512
+Disk /dev/loop24 - 12 MB / 12 MiB - 24984 sectors (RO), sector size=512
+Disk /dev/loop25 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop26 - 46 MB / 44 MiB - 90720 sectors (RO), sector size=512
+Disk /dev/loop27 - 46 MB / 44 MiB - 91008 sectors (RO), sector size=512
+Disk /dev/loop28 - 512 KB / 500 KiB - 1000 sectors (RO), sector size=512
+Disk /dev/loop29 - 581 KB / 568 KiB - 1136 sectors (RO), sector size=512
+Disk /dev/loop3 - 109 MB / 104 MiB - 213384 sectors (RO), sector size=512
+Disk /dev/loop30 - 336 MB / 321 MiB - 657616 sectors (RO), sector size=512
+Disk /dev/loop4 - 58 MB / 55 MiB - 113992 sectors (RO), sector size=512
+Disk /dev/loop5 - 58 MB / 55 MiB - 113384 sectors (RO), sector size=512
+Disk /dev/loop6 - 67 MB / 63 MiB - 131016 sectors (RO), sector size=512
+Disk /dev/loop7 - 66 MB / 63 MiB - 130448 sectors (RO), sector size=512
+Disk /dev/loop8 - 77 MB / 73 MiB - 151296 sectors (RO), sector size=512
+Disk /dev/loop9 - 77 MB / 73 MiB - 151288 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 2000 GB / 1863 GiB - CHS 1907729 64 32, sector size=512
+Disk /dev/nvme1n1 - 1000 GB / 931 GiB - CHS 953869 64 32, sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 2000 GB / 1863 GiB
+Partition table type: EFI GPT
+
+Analyse Disk /dev/nvme0n1 - 2000 GB / 1863 GiB - CHS 1907729 64 32
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=3907029167 (expected 3907029167)
+hdr_lba_start=34
+hdr_lba_end=3907029134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+check_part_gpt failed for partition
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+Current partition structure:
+ 1 P EFI System                  2048     206847     204800 [EFI system partition]
+No FAT, NTFS, ext2, JFS, Reiser, cramfs or XFS marker
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+Warning: number of heads/cylinder mismatches 255 (NTFS) != 64 (HD)
+Warning: number of sectors per track mismatches 63 (NTFS) != 32 (HD)
+ 3 P MS Data                   239616 3905454079 3905214464 [Basic data partition]
+ 4 P Windows Recovery Env  3905454080 3907026943    1572864
+
+search_part()
+Disk /dev/nvme0n1 - 2000 GB / 1863 GiB - CHS 1907729 64 32
+FAT32 at 1/0/1
+FAT1 : 6654-7422
+FAT2 : 7423-8191
+start_rootdir : 8192 root cluster : 2
+Data : 8192-204799
+sectors : 204800
+cluster_size : 2
+no_of_cluster : 98304 (2 - 98305)
+fat_length 769 calculated 769
+heads/cylinder 255 (FAT) != 64 (HD)
+sect/track 63 (FAT) != 32 (HD)
+set_FAT_info: name from BS used
+
+FAT32 at 1/0/1
+FAT: cluster=2(0x2), pos=10240
+     EFI System                  2048     206847     204800 [EFI System Partition] [NO NAME]
+     FAT32, blocksize=1024, 104 MB / 100 MiB
+NTFS at 117/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           3905214464
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS part_offset=122683392, part_size=1999469805568, sector_size=512
+NTFS partition cannot be added (part_offset<part_size).
+NTFS at 117/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           3905214464
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data                   239616 3905454079 3905214464
+     NTFS, blocksize=4096, 1999 GB / 1862 GiB
+NTFS at 1906960/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           1572864
+sectors_per_cluster       8
+mft_lcn                   65536
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data               3903881217 3905454080    1572864
+     NTFS found using backup sector, blocksize=4096, 805 MB / 768 MiB
+NTFS at 1906960/0/1
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           1572864
+sectors_per_cluster       8
+mft_lcn                   65536
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data               3905454080 3907026943    1572864
+     NTFS, blocksize=4096, 805 MB / 768 MiB
+NTFS at 1907728/63/32
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           3906789376
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     MS Data                   239616 3907028991 3906789376
+     NTFS found using backup sector, blocksize=4096, 2000 GB / 1862 GiB
+NTFS at 1907728/63/32
+heads/cylinder 255 (NTFS) != 64 (HD)
+sect/track 63 (NTFS) != 32 (HD)
+filesystem size           3906789376
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS: Can't read MFT
+     MS Data               3907028991 7813818366 3906789376
+     NTFS, blocksize=4096, 2000 GB / 1862 GiB
+This partition ends after the disk limits. (start=3907028991, size=3906789376, end=7813818366, disk end=3907029168)
+Disk /dev/nvme0n1 - 2000 GB / 1863 GiB - CHS 1907729 64 32
+Check the harddisk size: HD jumper settings, BIOS detection...
+The harddisk (2000 GB / 1863 GiB) seems too small! (< 4000 GB / 3725 GiB)
+The following partition can't be recovered:
+     MS Data               3907028991 7813818366 3906789376
+     NTFS, blocksize=4096, 2000 GB / 1862 GiB
+
+Results
+   P EFI System                  2048     206847     204800 [EFI System Partition] [NO NAME]
+     FAT32, blocksize=1024, 104 MB / 100 MiB
+     MS Data                   239616 3905454079 3905214464
+     NTFS, blocksize=4096, 1999 GB / 1862 GiB
+     MS Data                   239616 3907028991 3906789376
+     NTFS found using backup sector, blocksize=4096, 2000 GB / 1862 GiB
+     MS Data               3903881217 3905454080    1572864
+     NTFS found using backup sector, blocksize=4096, 805 MB / 768 MiB
+     MS Data               3905454080 3907026943    1572864
+     NTFS, blocksize=4096, 805 MB / 768 MiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 204800 linear /dev/nvme0n1 2048" | dmsetup create test0
+echo "0 3905214464 linear /dev/nvme0n1 239616" | dmsetup create test1
+echo "0 3906789376 linear /dev/nvme0n1 239616" | dmsetup create test2
+echo "0 1572864 linear /dev/nvme0n1 3903881217" | dmsetup create test3
+echo "0 1572864 linear /dev/nvme0n1 3905454080" | dmsetup create test4
+SIGINT detected! TestDisk has been killed.

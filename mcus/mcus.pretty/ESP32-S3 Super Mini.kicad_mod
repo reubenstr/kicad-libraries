@@ -1,10 +1,10 @@
-(footprint "ESP32-C3 Super Mini"
+(footprint "ESP32-S3 Super Mini"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 10.16 21.59 0)
+		(at 10.16 22.86 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4b2eeff5-1e48-4ab6-9e3c-ce334dc3edf5")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ESP32-C3 Super Mini"
+	(property "Value" "ESP32-S3 Super Mini"
 		(at 8.89 -5.31 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -70,7 +70,7 @@
 	(attr smd)
 	(fp_rect
 		(start 0 -1.27)
-		(end 17.78 20.32)
+		(end 17.78 21.59)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,6 +78,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "f00d6152-52ac-43e1-b6d8-bddba8860eeb")
+	)
+	(fp_rect
+		(start 2.8575 19.685)
+		(end 8.5725 21.59)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b1d146e2-daa7-4a41-958f-55195a99081a")
 	)
 	(fp_rect
 		(start 3.81 3.81)
@@ -102,17 +113,6 @@
 		(uuid "766a5ba2-cab5-42ad-8d7b-6bb76c443afc")
 	)
 	(fp_rect
-		(start 6.35 18.415)
-		(end 12.065 20.32)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "b1d146e2-daa7-4a41-958f-55195a99081a")
-	)
-	(fp_rect
 		(start 10.795 3.81)
 		(end 14.605 6.35)
 		(stroke
@@ -122,6 +122,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "85f05882-b76d-4e63-9ca1-eb4be71f71c3")
+	)
+	(fp_rect
+		(start 13.335 15.5575)
+		(end 15.24 17.4625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cf6281c3-688a-498b-9b7d-7bb78b58aec5")
 	)
 	(fp_circle
 		(center 5.715 5.08)
@@ -146,7 +157,7 @@
 		(uuid "3aefbeca-b618-4f5e-b617-b9aa38794b10")
 	)
 	(fp_text user "Super Mini"
-		(at 3.81 15.24 0)
+		(at 3.81 11.43 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "81886778-e723-463f-b47b-6fa6f60c5ebb")
@@ -159,8 +170,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "ESP32-C3"
-		(at 3.81 12.7 0)
+	(fp_text user "ESP32-S3"
+		(at 3.81 9.525 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d43ec4cf-ee50-4ee2-beb9-e32a6d07f34d")
@@ -314,24 +325,24 @@
 		(remove_unused_layers no)
 		(uuid "11762195-43df-4d9c-8be3-007c7049f204")
 	)
-	(pad "9" thru_hole circle
-		(at 16.51 17.78)
-		(size 1.5 1.5)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2d9bdadc-168a-495b-9f69-a4520728c8aa")
-	)
 	(pad "9" smd roundrect
-		(at 17.78 17.78)
+		(at 0 20.32)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "07565f78-9be9-4662-9e15-eb67dd894dc3")
 	)
+	(pad "9" thru_hole circle
+		(at 1.27 20.32)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d9bdadc-168a-495b-9f69-a4520728c8aa")
+	)
 	(pad "10" thru_hole circle
-		(at 16.51 15.24)
+		(at 16.51 20.32)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -339,7 +350,7 @@
 		(uuid "3192b396-7748-45c2-a948-82949d582680")
 	)
 	(pad "10" smd roundrect
-		(at 17.78 15.24)
+		(at 17.78 20.32)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -347,7 +358,7 @@
 		(uuid "a1af301b-5b30-489e-aa40-c0d4dca8f2cc")
 	)
 	(pad "11" thru_hole circle
-		(at 16.51 12.7)
+		(at 16.51 17.78)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -355,7 +366,7 @@
 		(uuid "8047fa6a-a9ae-499b-8696-52f49e8c4575")
 	)
 	(pad "11" smd roundrect
-		(at 17.78 12.7)
+		(at 17.78 17.78)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -363,7 +374,7 @@
 		(uuid "73546cf0-b24d-4b42-9d78-1e402e33372b")
 	)
 	(pad "12" thru_hole circle
-		(at 16.51 10.16)
+		(at 16.51 15.24)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -371,7 +382,7 @@
 		(uuid "09dd29ef-f91a-4fc6-98f2-7269b869bfa8")
 	)
 	(pad "12" smd roundrect
-		(at 17.78 10.16)
+		(at 17.78 15.24)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -379,7 +390,7 @@
 		(uuid "de1b0fb2-7649-43af-9e62-52077913515b")
 	)
 	(pad "13" thru_hole circle
-		(at 16.51 7.62)
+		(at 16.51 12.7)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -387,7 +398,7 @@
 		(uuid "3e627474-7182-40fc-9306-cea449369065")
 	)
 	(pad "13" smd roundrect
-		(at 17.78 7.62)
+		(at 17.78 12.7)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -395,7 +406,7 @@
 		(uuid "19e19719-3746-42f7-a98a-67a272e83e0c")
 	)
 	(pad "14" thru_hole circle
-		(at 16.51 5.08)
+		(at 16.51 10.16)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -403,7 +414,7 @@
 		(uuid "28bcf4ed-bf3d-4da4-9b5c-c5db1caa2664")
 	)
 	(pad "14" smd roundrect
-		(at 17.78 5.08)
+		(at 17.78 10.16)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -411,7 +422,7 @@
 		(uuid "b56e92c4-e2b3-4e7c-8cf5-b3d62b32e99e")
 	)
 	(pad "15" thru_hole circle
-		(at 16.51 2.54)
+		(at 16.51 7.62)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -419,7 +430,7 @@
 		(uuid "ae07690f-0241-49a8-bcf0-40c0134bd173")
 	)
 	(pad "15" smd roundrect
-		(at 17.78 2.54)
+		(at 17.78 7.62)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -427,7 +438,7 @@
 		(uuid "aec0100f-9339-4bbb-8b14-c17974b5ad8f")
 	)
 	(pad "16" thru_hole circle
-		(at 16.51 0)
+		(at 16.51 5.08)
 		(size 1.5 1.5)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -435,12 +446,44 @@
 		(uuid "8e6cbf82-449d-439e-b560-b31f2487c13c")
 	)
 	(pad "16" smd roundrect
-		(at 17.78 0)
+		(at 17.78 5.08)
 		(size 2.286 1.524)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "335dee80-ed7e-4983-9c59-8c62df70982c")
+	)
+	(pad "17" thru_hole circle
+		(at 16.51 2.54)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb1a9a79-49d1-4189-8f04-2d31b868378e")
+	)
+	(pad "17" smd roundrect
+		(at 17.78 2.54)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "94687410-ba3e-4f2b-9a03-1c964375df12")
+	)
+	(pad "18" thru_hole circle
+		(at 16.51 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fee31a48-cb13-498b-bd52-b7977f11af31")
+	)
+	(pad "18" smd roundrect
+		(at 17.78 0)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9840ec1b-9ff3-46c9-9d04-40ea2efd78f9")
 	)
 	(model "/home/pc/Desktop/projects/kicad-libraries/mcus/mcus.pretty/3dmodels/ESP32-C3 supermini v5.step"
 		(offset

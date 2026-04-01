@@ -1,4 +1,4 @@
-(footprint "LCD-Display-2.8-240x320-Hiletgo"
+(footprint "LCD-Display-2.8-240x320-Hiletgo-NoHoles"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "LCD-Display-2.8-240x320-Hiletgo"
+	(property "Value" "LCD-Display-2.8-240x320-Hiletgo-NoHoles"
 		(at 25.35 -11.38 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -88,6 +88,20 @@
 		(layer "Dwgs.User")
 		(uuid "3949893d-ece0-489f-971f-f6fbe3db1cc8")
 	)
+	(fp_text user "2.8\" TFT 240x320 HiLetGo"
+		(at 25.019 -42.545 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "54bfd205-a0c0-4805-a224-2dd2113231ac")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.35)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 25.019 -14.555 0)
 		(unlocked yes)
@@ -99,34 +113,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at 3.25 -79.5)
-		(size 4 4)
-		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "3bcb9648-28c6-4dee-82fb-b1645bef3492")
-	)
-	(pad "" np_thru_hole circle
-		(at 3.25 -4)
-		(size 4 4)
-		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "68ae8925-e730-420e-9e4c-bcf4547271b5")
-	)
-	(pad "" np_thru_hole circle
-		(at 47.25 -79.5)
-		(size 4 4)
-		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "2333a7ad-1a53-43e1-91d5-6c31a84779e2")
-	)
-	(pad "" np_thru_hole circle
-		(at 47.25 -4)
-		(size 4 4)
-		(drill 3.25)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "9bc87f78-5c63-4db4-a3e9-3dbe763348fa")
 	)
 	(pad "1" thru_hole circle
 		(at 8.509 -2.032)
